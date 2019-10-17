@@ -1,0 +1,16 @@
+// Example program
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  int A, a100, a10, a1;
+  cout << "Enter A : ";
+  cin>>A;
+  a100 = A / 100;
+  a10 = A % 100 / 10;
+  a1 = A % 100 % 10;
+    cout << a1 << a10 << a100;
+    
+}

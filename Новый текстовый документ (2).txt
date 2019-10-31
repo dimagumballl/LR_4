@@ -1,0 +1,46 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    char W;
+    cout << "Type any day of the week: ";
+    cin >> W;    
+    switch (W) {
+        case ('M'):{
+            cout << "M, Monday, 1";
+            break;
+        }
+        case ('U'):{
+            cout << "T, Tuesday, 2";
+            break;
+        }
+        case ('W'):{
+            cout << "W, Wednesday, 3";
+            break;
+        }
+        case ('H'):{
+            cout << "T, Thursday, 4";
+            break;
+        }
+        case ('F'):{
+            cout << "F, Friday, 5";
+            break;
+        }
+        case ('A'):{
+            cout << "S, Saturday, 6";
+            break;
+        }
+        case ('S'):{
+            cout << "S, Sunday, 7";
+            break;  
+        }
+         default:{
+            cout << "Try again "; 
+            break;
+    }
+    }
+}

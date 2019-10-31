@@ -1,0 +1,20 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    int con = 0;
+    int a;
+    int b;
+    int c;
+    for(int i=100; i<150; i++){
+        a = i / 100;
+        b = ( i - (a * 100 ) ) / 10;
+        c = ( i - (a * 100 ) ) - (b * 10);
+        if(a == c) con++;
+        }
+    cout<<con;
+}
